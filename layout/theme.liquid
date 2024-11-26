@@ -1,0 +1,11 @@
+<html>
+    <head>{{content_for_header}}</head>
+    <body>
+        {% comment %} This displays the section whose file name is announcement bar {% endcomment %}
+        {% comment %} {% section  'announcement-bar' %}  {% endcomment %}
+        <main>
+            {% comment %} The content_for_layout connects with the template folder and then displays all the sections there {% endcomment %}
+            {{content_for_layout}} 
+        </main>
+    </body>
+</html>
